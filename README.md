@@ -29,6 +29,7 @@ sudo apt-get install cmake
 * clangd
 ```bash
 sudo apt-get install clangd-12
+sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-12 100
 ```
 * package to run this example
 ```bash
@@ -220,3 +221,5 @@ target_link_options(${PROJECT_NAME} PRIVATE -Wl,-rpath,/opt/nvidia/deepstream/de
 * start debug and make a breakpoint
 ![Screenshot from 2024-05-27 15-45-50](https://github.com/jenhaoyang/jenhaoyang.github.io/assets/7457532/b59ce08f-4eba-499d-9de9-4774fb1c631e)
 
+code navigation
+![Screenshot from 2024-05-27 16-20-43](https://github.com/jenhaoyang/deepstream-startup/assets/7457532/de3a2368-fd06-4833-9bb8-88d9a0b6ecf2)
