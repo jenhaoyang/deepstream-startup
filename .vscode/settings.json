@@ -1,0 +1,17 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.generator": "Unix Makefiles",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--background-index",
+        "-j=8",
+        "--query-driver=/usr/bin/clang++",
+        "--clang-tidy",
+        "--clang-tidy-checks=performance-*,bugprone-*",
+        "--all-scopes-completion",
+        "--completion-style=detailed",
+        "--function-arg-placeholders",
+        "--header-insertion=iwyu",
+        "--pch-storage=memory",
+    ],
+}

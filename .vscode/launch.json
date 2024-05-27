@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceFolder}/deepstream-test5",//the path of the executable file deepstream-test5
+            "args": ["-c", "configs/test5_config_file_src_infer.txt"],//arg for deepstream-test5
+            "cwd": "${workspaceFolder}",//指定工作目錄
+            "preLaunchTask": "CMake: build"
+        }
+    ]
+}
