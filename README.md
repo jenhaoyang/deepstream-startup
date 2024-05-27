@@ -47,11 +47,10 @@ Following our workspace is in the copy of deepstream-test5 folder.
 
 ```bash
 cp -r /opt/nvidia/deepstream/deepstream/apps/sample_apps/deepstream-test5/* /path/to/your/workspace
+```
 
 * create launch.json and task.json
-```bash
-* create launch.json and task.json for compile and debug
-```
+create launch.json and task.json for compile and debug
 
 tasks.json use CMake to build  
 
